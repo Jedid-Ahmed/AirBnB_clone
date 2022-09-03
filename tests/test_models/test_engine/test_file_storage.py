@@ -143,5 +143,5 @@ class TestFileStorage_methods(unittest.TestCase):
     def test_reload_no_file(self):
         self.assertRaises(FileNotFoundError, models.storage.reload())
 
-if __name__ == "__main__":
-    unittest.main()
+        if __name__ == "__main__":
+            unittest.main()
