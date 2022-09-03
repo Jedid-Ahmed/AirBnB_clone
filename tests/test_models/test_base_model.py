@@ -4,6 +4,7 @@ import unittest
 from datetime import datetime
 from models.base_model import BaseModel
 
+
 class TestBaseModel_instantiation(unittest.TestCase):
     """Testing instantiation attributes"""
 
@@ -88,8 +89,6 @@ class TestBaseModel_to_dict(unittest.TestCase):
             'updated_at': dt.isoformat()
         }
         self.assertDictEqual(bm.to_dict(), tdict)
-
-
 
 
 if __name__ == "__main__":
