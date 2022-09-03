@@ -2,7 +2,7 @@
 """BaseModel module"""
 from uuid import uuid4
 from datetime import datetime
-import models
+from models import storage
 
 
 class BaseModel:
@@ -10,7 +10,7 @@ class BaseModel:
     classes"""
 
     def __init__(self, *args, **kwargs):
-        """initializes the BaseModel attributes"""
+        """initializes the BaseModel class"""
 
         self.id = str(uuid4())
         self.created_at = datetime.today()
