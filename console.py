@@ -226,5 +226,6 @@ def parse(arg):
     args = split(arg)
     return args
 
+
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
