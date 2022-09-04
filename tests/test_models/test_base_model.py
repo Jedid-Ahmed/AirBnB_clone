@@ -142,5 +142,6 @@ class TestBaseModel_to_dict(unittest.TestCase):
         }
         self.assertDictEqual(bm.to_dict(), tdict)
 
+
 if __name__ == "__main__":
     unittest.main()
