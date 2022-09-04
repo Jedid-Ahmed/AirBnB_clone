@@ -225,5 +225,6 @@ def parse(arg):
     """converts a string to a list of arguements"""
     args = split(arg)
     return args
+
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
